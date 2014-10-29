@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD929B1A01637300EF3884 /* KCOMenu.swift */; };
+		C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */; };
+		C0BB75681A00B3AA00B6D5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB75671A00B3AA00B6D5BE /* ViewController.swift */; };
+		C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75691A00B3AA00B6D5BE /* Main.storyboard */; };
+		C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */; };
+		C0BB75701A00B3AA00B6D5BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */; };
+		C0BB757C1A00B3AA00B6D5BE /* FemsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB757B1A00B3AA00B6D5BE /* FemsaTests.swift */; };
+		C0BB75911A00BCE600B6D5BE /* 1.Splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */; };
+		C0BB75921A00BCE600B6D5BE /* 2.Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75861A00BCE600B6D5BE /* 2.Login.jpg */; };
+		C0BB75931A00BCE600B6D5BE /* 3.Main-MenuA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75871A00BCE600B6D5BE /* 3.Main-MenuA.jpg */; };
+		C0BB75941A00BCE600B6D5BE /* 4.Main-Menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75881A00BCE600B6D5BE /* 4.Main-Menu.jpg */; };
+		C0BB75951A00BCE600B6D5BE /* 5.Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75891A00BCE600B6D5BE /* 5.Home.jpg */; };
+		C0BB75961A00BCE600B6D5BE /* 6.articulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758A1A00BCE600B6D5BE /* 6.articulos.jpg */; };
+		C0BB75971A00BCE600B6D5BE /* 7.Calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758B1A00BCE600B6D5BE /* 7.Calendar.jpg */; };
+		C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */; };
+		C0BB75991A00BCE600B6D5BE /* 9.juego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */; };
+		C0BB759A1A00BCE600B6D5BE /* 10.muro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */; };
+		C0BB759B1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */; };
+		C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */; };
+		C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0BB75761A00B3AA00B6D5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BB75581A00B3A900B6D5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BB755F1A00B3A900B6D5BE;
+			remoteInfo = Femsa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0AD929B1A01637300EF3884 /* KCOMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu.swift; sourceTree = "<group>"; };
+		C0BB75601A00B3A900B6D5BE /* Femsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Femsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BB75641A00B3A900B6D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0BB75671A00B3AA00B6D5BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0BB756A1A00B3AA00B6D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0BB756F1A00B3AA00B6D5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0BB75751A00B3AA00B6D5BE /* FemsaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemsaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BB757A1A00B3AA00B6D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BB757B1A00B3AA00B6D5BE /* FemsaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemsaTests.swift; sourceTree = "<group>"; };
+		C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.Splash.jpg; sourceTree = "<group>"; };
+		C0BB75861A00BCE600B6D5BE /* 2.Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.Login.jpg; sourceTree = "<group>"; };
+		C0BB75871A00BCE600B6D5BE /* 3.Main-MenuA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3.Main-MenuA.jpg"; sourceTree = "<group>"; };
+		C0BB75881A00BCE600B6D5BE /* 4.Main-Menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4.Main-Menu.jpg"; sourceTree = "<group>"; };
+		C0BB75891A00BCE600B6D5BE /* 5.Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.Home.jpg; sourceTree = "<group>"; };
+		C0BB758A1A00BCE600B6D5BE /* 6.articulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.articulos.jpg; sourceTree = "<group>"; };
+		C0BB758B1A00BCE600B6D5BE /* 7.Calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.Calendar.jpg; sourceTree = "<group>"; };
+		C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.chat.jpg; sourceTree = "<group>"; };
+		C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.juego.jpg; sourceTree = "<group>"; };
+		C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.muro.jpg; sourceTree = "<group>"; };
+		C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.menuIndBooklet.jpg; sourceTree = "<group>"; };
+		C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.menuIndEmpleo.jpg; sourceTree = "<group>"; };
+		C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.videos.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BB755D1A00B3A900B6D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BB75721A00B3AA00B6D5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0BB75571A00B3A900B6D5BE = {
+			isa = PBXGroup;
+			children = (
+				C0BB75621A00B3A900B6D5BE /* Femsa */,
+				C0BB75781A00B3AA00B6D5BE /* FemsaTests */,
+				C0BB75611A00B3A900B6D5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BB75611A00B3A900B6D5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB75601A00B3A900B6D5BE /* Femsa.app */,
+				C0BB75751A00B3AA00B6D5BE /* FemsaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BB75621A00B3A900B6D5BE /* Femsa */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */,
+				C0BB75671A00B3AA00B6D5BE /* ViewController.swift */,
+				C0AD929B1A01637300EF3884 /* KCOMenu.swift */,
+				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
+				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
+				C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */,
+				C0BB75631A00B3A900B6D5BE /* Supporting Files */,
+			);
+			path = Femsa;
+			sourceTree = "<group>";
+		};
+		C0BB75631A00B3A900B6D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */,
+				C0BB75861A00BCE600B6D5BE /* 2.Login.jpg */,
+				C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */,
+				C0BB75871A00BCE600B6D5BE /* 3.Main-MenuA.jpg */,
+				C0BB75881A00BCE600B6D5BE /* 4.Main-Menu.jpg */,
+				C0BB75891A00BCE600B6D5BE /* 5.Home.jpg */,
+				C0BB758A1A00BCE600B6D5BE /* 6.articulos.jpg */,
+				C0BB758B1A00BCE600B6D5BE /* 7.Calendar.jpg */,
+				C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */,
+				C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */,
+				C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */,
+				C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */,
+				C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */,
+				C0BB75641A00B3A900B6D5BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0BB75781A00B3AA00B6D5BE /* FemsaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB757B1A00B3AA00B6D5BE /* FemsaTests.swift */,
+				C0BB75791A00B3AA00B6D5BE /* Supporting Files */,
+			);
+			path = FemsaTests;
+			sourceTree = "<group>";
+		};
+		C0BB75791A00B3AA00B6D5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BB757A1A00B3AA00B6D5BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BB755F1A00B3A900B6D5BE /* Femsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BB757F1A00B3AA00B6D5BE /* Build configuration list for PBXNativeTarget "Femsa" */;
+			buildPhases = (
+				C0BB755C1A00B3A900B6D5BE /* Sources */,
+				C0BB755D1A00B3A900B6D5BE /* Frameworks */,
+				C0BB755E1A00B3A900B6D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Femsa;
+			productName = Femsa;
+			productReference = C0BB75601A00B3A900B6D5BE /* Femsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0BB75741A00B3AA00B6D5BE /* FemsaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BB75821A00B3AA00B6D5BE /* Build configuration list for PBXNativeTarget "FemsaTests" */;
+			buildPhases = (
+				C0BB75711A00B3AA00B6D5BE /* Sources */,
+				C0BB75721A00B3AA00B6D5BE /* Frameworks */,
+				C0BB75731A00B3AA00B6D5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BB75771A00B3AA00B6D5BE /* PBXTargetDependency */,
+			);
+			name = FemsaTests;
+			productName = FemsaTests;
+			productReference = C0BB75751A00B3AA00B6D5BE /* FemsaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BB75581A00B3A900B6D5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = JCKreactiveco001;
+				TargetAttributes = {
+					C0BB755F1A00B3A900B6D5BE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C0BB75741A00B3AA00B6D5BE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C0BB755F1A00B3A900B6D5BE;
+					};
+				};
+			};
+			buildConfigurationList = C0BB755B1A00B3A900B6D5BE /* Build configuration list for PBXProject "Femsa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0BB75571A00B3A900B6D5BE;
+			productRefGroup = C0BB75611A00B3A900B6D5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BB755F1A00B3A900B6D5BE /* Femsa */,
+				C0BB75741A00B3AA00B6D5BE /* FemsaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BB755E1A00B3A900B6D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BB75921A00BCE600B6D5BE /* 2.Login.jpg in Resources */,
+				C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */,
+				C0BB75971A00BCE600B6D5BE /* 7.Calendar.jpg in Resources */,
+				C0BB75911A00BCE600B6D5BE /* 1.Splash.jpg in Resources */,
+				C0BB759B1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg in Resources */,
+				C0BB75701A00B3AA00B6D5BE /* LaunchScreen.xib in Resources */,
+				C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */,
+				C0BB75931A00BCE600B6D5BE /* 3.Main-MenuA.jpg in Resources */,
+				C0BB75951A00BCE600B6D5BE /* 5.Home.jpg in Resources */,
+				C0BB759A1A00BCE600B6D5BE /* 10.muro.jpg in Resources */,
+				C0BB75991A00BCE600B6D5BE /* 9.juego.jpg in Resources */,
+				C0BB75961A00BCE600B6D5BE /* 6.articulos.jpg in Resources */,
+				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
+				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
+				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
+				C0BB75941A00BCE600B6D5BE /* 4.Main-Menu.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BB75731A00B3AA00B6D5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BB755C1A00B3A900B6D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BB75681A00B3AA00B6D5BE /* ViewController.swift in Sources */,
+				C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */,
+				C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BB75711A00B3AA00B6D5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BB757C1A00B3AA00B6D5BE /* FemsaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0BB75771A00B3AA00B6D5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BB755F1A00B3A900B6D5BE /* Femsa */;
+			targetProxy = C0BB75761A00B3AA00B6D5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0BB75691A00B3AA00B6D5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BB756A1A00B3AA00B6D5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BB756F1A00B3AA00B6D5BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BB757D1A00B3AA00B6D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0BB757E1A00B3AA00B6D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BB75801A00B3AA00B6D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Femsa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0BB75811A00B3AA00B6D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Femsa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0BB75831A00B3AA00B6D5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FemsaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femsa.app/Femsa";
+			};
+			name = Debug;
+		};
+		C0BB75841A00B3AA00B6D5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FemsaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femsa.app/Femsa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BB755B1A00B3A900B6D5BE /* Build configuration list for PBXProject "Femsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BB757D1A00B3AA00B6D5BE /* Debug */,
+				C0BB757E1A00B3AA00B6D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BB757F1A00B3AA00B6D5BE /* Build configuration list for PBXNativeTarget "Femsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BB75801A00B3AA00B6D5BE /* Debug */,
+				C0BB75811A00B3AA00B6D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BB75821A00B3AA00B6D5BE /* Build configuration list for PBXNativeTarget "FemsaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BB75831A00B3AA00B6D5BE /* Debug */,
+				C0BB75841A00B3AA00B6D5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0BB75581A00B3A900B6D5BE /* Project object */;
+}
