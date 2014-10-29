@@ -10,4 +10,8 @@ import UIKit
 
 class KCOMenu: UIViewController {
     
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
 }
