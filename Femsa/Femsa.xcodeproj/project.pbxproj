@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0161BF31A02BF9800010370 /* KCOPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BF21A02BF9800010370 /* KCOPerfil.swift */; };
+		C0161BF51A02BFC600010370 /* KCOAgenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BF41A02BFC600010370 /* KCOAgenda.swift */; };
+		C0161BF71A02C01A00010370 /* KCOBolsaDeTrabajo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BF61A02C01A00010370 /* KCOBolsaDeTrabajo.swift */; };
+		C0161BF91A02C04900010370 /* KCOChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BF81A02C04900010370 /* KCOChat.swift */; };
+		C0161BFB1A02C06800010370 /* KCOMuro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BFA1A02C06800010370 /* KCOMuro.swift */; };
+		C0161BFD1A02C07C00010370 /* KCOCalendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BFC1A02C07C00010370 /* KCOCalendario.swift */; };
+		C0161BFF1A02C0AA00010370 /* KCOArticulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161BFE1A02C0AA00010370 /* KCOArticulo.swift */; };
+		C0161C051A02C28600010370 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0161C041A02C28500010370 /* MediaPlayer.framework */; };
+		C0161C091A02C3E500010370 /* KCOVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161C081A02C3E500010370 /* KCOVideo.swift */; };
+		C0161C0B1A02C6D000010370 /* KCOJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161C0A1A02C6D000010370 /* KCOJuego.swift */; };
+		C0161C0E1A02D37100010370 /* ALTAwp6.mov in Resources */ = {isa = PBXBuildFile; fileRef = C0161C0D1A02D37100010370 /* ALTAwp6.mov */; };
+		C0161C101A02DF8400010370 /* Booklet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0161C0F1A02DF8400010370 /* Booklet.jpg */; };
+		C0161C181A02E4CB00010370 /* Articulo01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C111A02E4CB00010370 /* Articulo01.png */; };
+		C0161C191A02E4CB00010370 /* Articulo02.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C121A02E4CB00010370 /* Articulo02.png */; };
+		C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C131A02E4CB00010370 /* Articulo03.png */; };
+		C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C141A02E4CB00010370 /* Articulo04.png */; };
+		C0161C1C1A02E4CB00010370 /* Articulo05.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C151A02E4CB00010370 /* Articulo05.png */; };
+		C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C161A02E4CB00010370 /* Articulo06.png */; };
+		C0161C1E1A02E4CB00010370 /* BackgroundArticulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */; };
 		C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD929B1A01637300EF3884 /* KCOMenu.swift */; };
 		C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */; };
 		C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */; };
@@ -26,7 +45,6 @@
 		C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */; };
 		C0BB75991A00BCE600B6D5BE /* 9.juego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */; };
 		C0BB759A1A00BCE600B6D5BE /* 10.muro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */; };
-		C0BB759B1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */; };
 		C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */; };
 		C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */; };
 /* End PBXBuildFile section */
@@ -42,6 +60,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0161BF21A02BF9800010370 /* KCOPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOPerfil.swift; sourceTree = "<group>"; };
+		C0161BF41A02BFC600010370 /* KCOAgenda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOAgenda.swift; sourceTree = "<group>"; };
+		C0161BF61A02C01A00010370 /* KCOBolsaDeTrabajo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOBolsaDeTrabajo.swift; sourceTree = "<group>"; };
+		C0161BF81A02C04900010370 /* KCOChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOChat.swift; sourceTree = "<group>"; };
+		C0161BFA1A02C06800010370 /* KCOMuro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMuro.swift; sourceTree = "<group>"; };
+		C0161BFC1A02C07C00010370 /* KCOCalendario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOCalendario.swift; sourceTree = "<group>"; };
+		C0161BFE1A02C0AA00010370 /* KCOArticulo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOArticulo.swift; sourceTree = "<group>"; };
+		C0161C041A02C28500010370 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C0161C081A02C3E500010370 /* KCOVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOVideo.swift; sourceTree = "<group>"; };
+		C0161C0A1A02C6D000010370 /* KCOJuego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOJuego.swift; sourceTree = "<group>"; };
+		C0161C0D1A02D37100010370 /* ALTAwp6.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = ALTAwp6.mov; path = ../../../ALTAwp6.mov; sourceTree = "<group>"; };
+		C0161C0F1A02DF8400010370 /* Booklet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Booklet.jpg; sourceTree = "<group>"; };
+		C0161C111A02E4CB00010370 /* Articulo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo01.png; sourceTree = "<group>"; };
+		C0161C121A02E4CB00010370 /* Articulo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo02.png; sourceTree = "<group>"; };
+		C0161C131A02E4CB00010370 /* Articulo03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo03.png; sourceTree = "<group>"; };
+		C0161C141A02E4CB00010370 /* Articulo04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo04.png; sourceTree = "<group>"; };
+		C0161C151A02E4CB00010370 /* Articulo05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo05.png; sourceTree = "<group>"; };
+		C0161C161A02E4CB00010370 /* Articulo06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo06.png; sourceTree = "<group>"; };
+		C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundArticulos.jpg; sourceTree = "<group>"; };
 		C0AD929B1A01637300EF3884 /* KCOMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu.swift; sourceTree = "<group>"; };
 		C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOMenuLiderazgo.swift; path = ../KCOMenuLiderazgo.swift; sourceTree = "<group>"; };
 		C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOBooklet.swift; sourceTree = "<group>"; };
@@ -65,7 +102,6 @@
 		C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.chat.jpg; sourceTree = "<group>"; };
 		C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.juego.jpg; sourceTree = "<group>"; };
 		C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.muro.jpg; sourceTree = "<group>"; };
-		C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.menuIndBooklet.jpg; sourceTree = "<group>"; };
 		C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.menuIndEmpleo.jpg; sourceTree = "<group>"; };
 		C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.videos.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0161C051A02C28600010370 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +128,7 @@
 		C0BB75571A00B3A900B6D5BE = {
 			isa = PBXGroup;
 			children = (
+				C0161C041A02C28500010370 /* MediaPlayer.framework */,
 				C0BB75621A00B3A900B6D5BE /* Femsa */,
 				C0BB75781A00B3AA00B6D5BE /* FemsaTests */,
 				C0BB75611A00B3A900B6D5BE /* Products */,
@@ -109,11 +147,20 @@
 		C0BB75621A00B3A900B6D5BE /* Femsa */ = {
 			isa = PBXGroup;
 			children = (
+				C0161C081A02C3E500010370 /* KCOVideo.swift */,
 				C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */,
 				C0BB75671A00B3AA00B6D5BE /* ViewController.swift */,
+				C0161BF21A02BF9800010370 /* KCOPerfil.swift */,
+				C0161BF41A02BFC600010370 /* KCOAgenda.swift */,
+				C0161BF61A02C01A00010370 /* KCOBolsaDeTrabajo.swift */,
+				C0161BF81A02C04900010370 /* KCOChat.swift */,
+				C0161BFA1A02C06800010370 /* KCOMuro.swift */,
+				C0161BFC1A02C07C00010370 /* KCOCalendario.swift */,
+				C0161BFE1A02C0AA00010370 /* KCOArticulo.swift */,
 				C0AD929B1A01637300EF3884 /* KCOMenu.swift */,
 				C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */,
 				C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */,
+				C0161C0A1A02C6D000010370 /* KCOJuego.swift */,
 				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
 				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
 				C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */,
@@ -125,7 +172,16 @@
 		C0BB75631A00B3A900B6D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0161C111A02E4CB00010370 /* Articulo01.png */,
+				C0161C121A02E4CB00010370 /* Articulo02.png */,
+				C0161C131A02E4CB00010370 /* Articulo03.png */,
+				C0161C141A02E4CB00010370 /* Articulo04.png */,
+				C0161C151A02E4CB00010370 /* Articulo05.png */,
+				C0161C161A02E4CB00010370 /* Articulo06.png */,
+				C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */,
 				C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */,
+				C0161C0D1A02D37100010370 /* ALTAwp6.mov */,
+				C0161C0F1A02DF8400010370 /* Booklet.jpg */,
 				C0BB75861A00BCE600B6D5BE /* 2.Login.jpg */,
 				C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */,
 				C0BB75871A00BCE600B6D5BE /* 3.Main-MenuA.jpg */,
@@ -136,7 +192,6 @@
 				C0BB758C1A00BCE600B6D5BE /* 8.chat.jpg */,
 				C0BB758D1A00BCE600B6D5BE /* 9.juego.jpg */,
 				C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */,
-				C0BB758F1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg */,
 				C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */,
 				C0BB75641A00B3A900B6D5BE /* Info.plist */,
 			);
@@ -244,14 +299,22 @@
 				C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */,
 				C0BB75971A00BCE600B6D5BE /* 7.Calendar.jpg in Resources */,
 				C0BB75911A00BCE600B6D5BE /* 1.Splash.jpg in Resources */,
-				C0BB759B1A00BCE600B6D5BE /* 11.menuIndBooklet.jpg in Resources */,
 				C0BB75701A00B3AA00B6D5BE /* LaunchScreen.xib in Resources */,
+				C0161C0E1A02D37100010370 /* ALTAwp6.mov in Resources */,
+				C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */,
 				C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */,
+				C0161C101A02DF8400010370 /* Booklet.jpg in Resources */,
 				C0BB75931A00BCE600B6D5BE /* 3.Main-MenuA.jpg in Resources */,
 				C0BB75951A00BCE600B6D5BE /* 5.Home.jpg in Resources */,
 				C0BB759A1A00BCE600B6D5BE /* 10.muro.jpg in Resources */,
+				C0161C1E1A02E4CB00010370 /* BackgroundArticulos.jpg in Resources */,
 				C0BB75991A00BCE600B6D5BE /* 9.juego.jpg in Resources */,
 				C0BB75961A00BCE600B6D5BE /* 6.articulos.jpg in Resources */,
+				C0161C1C1A02E4CB00010370 /* Articulo05.png in Resources */,
+				C0161C181A02E4CB00010370 /* Articulo01.png in Resources */,
+				C0161C191A02E4CB00010370 /* Articulo02.png in Resources */,
+				C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */,
+				C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */,
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
 				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
 				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
@@ -275,9 +338,18 @@
 			files = (
 				C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */,
 				C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */,
+				C0161BFB1A02C06800010370 /* KCOMuro.swift in Sources */,
 				C0BB75681A00B3AA00B6D5BE /* ViewController.swift in Sources */,
+				C0161BFF1A02C0AA00010370 /* KCOArticulo.swift in Sources */,
 				C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */,
+				C0161C0B1A02C6D000010370 /* KCOJuego.swift in Sources */,
+				C0161BFD1A02C07C00010370 /* KCOCalendario.swift in Sources */,
+				C0161BF71A02C01A00010370 /* KCOBolsaDeTrabajo.swift in Sources */,
+				C0161C091A02C3E500010370 /* KCOVideo.swift in Sources */,
 				C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */,
+				C0161BF31A02BF9800010370 /* KCOPerfil.swift in Sources */,
+				C0161BF91A02C04900010370 /* KCOChat.swift in Sources */,
+				C0161BF51A02BFC600010370 /* KCOAgenda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EAd-ix-GHA" kind="modal" id="Wqd-y9-c3r"/>
+                                    <segue destination="EAd-ix-GHA" kind="modal" modalTransitionStyle="coverVertical" id="Wqd-y9-c3r"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="adx-uX-ZsS">
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="153" y="272"/>
         </scene>
-        <!--Booklet-->
+        <!--Perfil-->
         <scene sceneID="Xet-mI-gCv">
             <objects>
-                <viewController id="Rif-kD-TME" customClass="KCOBooklet" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rif-kD-TME" customClass="KCOPerfil" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lew-tP-lgD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="-413" y="-1454"/>
         </scene>
-        <!--View Controller-->
+        <!--Agenda-->
         <scene sceneID="YiQ-w1-Ojy">
             <objects>
-                <viewController id="WvA-w4-rDd" sceneMemberID="viewController">
+                <viewController id="WvA-w4-rDd" customClass="KCOAgenda" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JsQ-Kj-QSP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,17 +105,17 @@
             </objects>
             <point key="canvasLocation" x="227" y="-1454"/>
         </scene>
-        <!--View Controller-->
+        <!--Booklet-->
         <scene sceneID="QU2-dd-Q0W">
             <objects>
-                <viewController id="X3V-gv-ThA" sceneMemberID="viewController">
+                <viewController id="X3V-gv-ThA" customClass="KCOBooklet" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xHb-iN-e3j">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11.menuIndBooklet.jpg" id="Ler-F2-qCf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Booklet.jpg" id="4r5-e8-gxv">
+                                <rect key="frame" x="0.0" y="0.0" width="321" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KRi-No-fFY">
                                 <rect key="frame" x="12" y="12" width="25" height="25"/>
@@ -127,18 +127,25 @@
                                     <segue destination="SAE-sc-Ccu" kind="modal" id="4vJ-Y5-LhR"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FGY-Vb-Ja2">
+                                <rect key="frame" x="12" y="109" width="292" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqp-dT-kgV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="803" y="-1454"/>
+            <point key="canvasLocation" x="814" y="-1414"/>
         </scene>
-        <!--View Controller-->
+        <!--Bolsa De Trabajo-->
         <scene sceneID="bbG-m5-uap">
             <objects>
-                <viewController id="MTm-KL-mJs" sceneMemberID="viewController">
+                <viewController id="MTm-KL-mJs" customClass="KCOBolsaDeTrabajo" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GwM-Dz-SqI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +187,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Rif-kD-TME" kind="modal" id="NVl-zG-j0L"/>
+                                    <segue destination="Rif-kD-TME" kind="modal" modalTransitionStyle="crossDissolve" id="NVl-zG-j0L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vLa-FE-hq2">
@@ -190,7 +197,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WvA-w4-rDd" kind="modal" id="qsQ-C0-zj5"/>
+                                    <segue destination="WvA-w4-rDd" kind="modal" modalTransitionStyle="crossDissolve" id="qsQ-C0-zj5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vfX-6m-fcp">
@@ -200,7 +207,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="X3V-gv-ThA" kind="modal" id="iEC-aO-NY6"/>
+                                    <segue destination="X3V-gv-ThA" kind="modal" modalTransitionStyle="crossDissolve" id="iEC-aO-NY6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R42-pz-JhX">
@@ -210,7 +217,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="MTm-KL-mJs" kind="modal" id="H42-mU-Vuo"/>
+                                    <segue destination="MTm-KL-mJs" kind="modal" modalTransitionStyle="crossDissolve" id="H42-mU-Vuo"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.Main-Menu.jpg" id="zUq-NX-cbm">
@@ -264,7 +271,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" id="Fwl-40-Aoe"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="flipHorizontal" id="Fwl-40-Aoe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kRx-We-1Zs">
@@ -301,7 +308,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="q26-eE-wXY" kind="modal" id="UoF-JU-pop"/>
+                                    <segue destination="q26-eE-wXY" kind="modal" modalTransitionStyle="partialCurl" id="UoF-JU-pop"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sry-Kd-Hgk">
@@ -311,7 +318,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c9y-3C-NCe" kind="modal" id="vMG-mO-g93"/>
+                                    <segue destination="c9y-3C-NCe" kind="modal" modalTransitionStyle="partialCurl" id="vMG-mO-g93"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kKY-sU-BW8">
@@ -321,7 +328,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tZa-Jl-Rcu" kind="modal" id="f3C-cH-Lzy"/>
+                                    <segue destination="tZa-Jl-Rcu" kind="modal" modalTransitionStyle="partialCurl" id="f3C-cH-Lzy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yO0-g9-aER">
@@ -341,7 +348,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="LtS-rM-rY5" kind="modal" id="fl8-ja-TQe"/>
+                                    <segue destination="LtS-rM-rY5" kind="modal" modalTransitionStyle="partialCurl" id="fl8-ja-TQe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -352,10 +359,10 @@
             </objects>
             <point key="canvasLocation" x="1241" y="265"/>
         </scene>
-        <!--View Controller-->
+        <!--Muro-->
         <scene sceneID="bZ3-l4-kjs">
             <objects>
-                <viewController id="LtS-rM-rY5" sceneMemberID="viewController">
+                <viewController id="LtS-rM-rY5" customClass="KCOMuro" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hCo-b8-Plk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -371,7 +378,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" id="Ano-Dp-sJR"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="Ano-Dp-sJR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -382,18 +389,14 @@
             </objects>
             <point key="canvasLocation" x="2405" y="1248"/>
         </scene>
-        <!--View Controller-->
+        <!--Juego-->
         <scene sceneID="Klm-V2-iGt">
             <objects>
-                <viewController id="tZa-Jl-Rcu" sceneMemberID="viewController">
+                <viewController id="tZa-Jl-Rcu" customClass="KCOJuego" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TVg-Qf-fD9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9.juego.jpg" id="ARd-E0-gT4">
-                                <rect key="frame" x="-2" y="2" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cyH-uP-xkS">
                                 <rect key="frame" x="8" y="12" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -401,9 +404,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" id="WeM-Tq-4ZH"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="WeM-Tq-4ZH"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9.juego.jpg" id="ARd-E0-gT4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -412,18 +419,14 @@
             </objects>
             <point key="canvasLocation" x="2405" y="272"/>
         </scene>
-        <!--View Controller-->
+        <!--Video-->
         <scene sceneID="5h3-Gj-lM1">
             <objects>
-                <viewController id="q26-eE-wXY" sceneMemberID="viewController">
+                <viewController id="q26-eE-wXY" customClass="KCOVideo" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uwR-pD-xfl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11.videos.jpg" id="fPL-HQ-X3Z">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q06-9i-62H">
                                 <rect key="frame" x="12" y="12" width="25" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -431,7 +434,21 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" id="RIX-Rw-gTm"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="RIX-Rw-gTm"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11.videos.jpg" id="fPL-HQ-X3Z">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ycl-3F-zqL">
+                                <rect key="frame" x="0.0" y="50" width="320" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VIDEO:" destination="q26-eE-wXY" eventType="touchUpInside" id="a4G-CM-Boe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -442,17 +459,17 @@
             </objects>
             <point key="canvasLocation" x="2405" y="-1454"/>
         </scene>
-        <!--View Controller-->
+        <!--Articulo-->
         <scene sceneID="THi-lX-SF9">
             <objects>
-                <viewController id="c9y-3C-NCe" sceneMemberID="viewController">
+                <viewController id="c9y-3C-NCe" customClass="KCOArticulo" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Im2-60-Zqm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6.articulos.jpg" id="KC9-lf-DT2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundArticulos.jpg" id="mG5-lg-VQx">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tJU-nA-7Sa">
                                 <rect key="frame" x="12" y="12" width="25" height="25"/>
@@ -461,7 +478,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" id="Tob-X3-dsk"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="Tob-X3-dsk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -475,15 +492,15 @@
     </scenes>
     <resources>
         <image name="10.muro.jpg" width="640" height="1136"/>
-        <image name="11.menuIndBooklet.jpg" width="640" height="1136"/>
         <image name="11.videos.jpg" width="640" height="1136"/>
         <image name="12.menuIndEmpleo.jpg" width="640" height="1136"/>
         <image name="2.Login.jpg" width="640" height="1136"/>
         <image name="3.Main-MenuA.jpg" width="640" height="1136"/>
         <image name="4.Main-Menu.jpg" width="640" height="1136"/>
         <image name="5.Home.jpg" width="640" height="1136"/>
-        <image name="6.articulos.jpg" width="640" height="1136"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
+        <image name="BackgroundArticulos.jpg" width="640" height="1136"/>
+        <image name="Booklet.jpg" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -491,8 +508,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Ano-Dp-sJR"/>
+        <segue reference="4vJ-Y5-LhR"/>
         <segue reference="Wqd-y9-c3r"/>
-        <segue reference="eT3-UI-e2w"/>
-        <segue reference="yQh-jL-WOZ"/>
     </inferredMetricsTieBreakers>
 </document>
