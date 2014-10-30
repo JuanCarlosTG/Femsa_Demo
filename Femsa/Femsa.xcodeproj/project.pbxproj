@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD929B1A01637300EF3884 /* KCOMenu.swift */; };
+		C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */; };
+		C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */; };
 		C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */; };
 		C0BB75681A00B3AA00B6D5BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB75671A00B3AA00B6D5BE /* ViewController.swift */; };
 		C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75691A00B3AA00B6D5BE /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		C0AD929B1A01637300EF3884 /* KCOMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu.swift; sourceTree = "<group>"; };
+		C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOMenuLiderazgo.swift; path = ../KCOMenuLiderazgo.swift; sourceTree = "<group>"; };
+		C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOBooklet.swift; sourceTree = "<group>"; };
 		C0BB75601A00B3A900B6D5BE /* Femsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Femsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BB75641A00B3A900B6D5BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */,
 				C0BB75671A00B3AA00B6D5BE /* ViewController.swift */,
 				C0AD929B1A01637300EF3884 /* KCOMenu.swift */,
+				C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */,
+				C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */,
 				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
 				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
 				C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */,
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */,
+				C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */,
 				C0BB75681A00B3AA00B6D5BE /* ViewController.swift in Sources */,
 				C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */,
 				C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */,
