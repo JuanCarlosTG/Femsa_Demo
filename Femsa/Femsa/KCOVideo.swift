@@ -21,7 +21,7 @@ class KCOVideo: UIViewController {
     
     @IBAction func VIDEO(sender: AnyObject) {
         
-        var url:NSURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("ALTAwp6", ofType: "mov")!)!
+        var url:NSURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("KOFDemoTV", ofType: "mov")!)!
         
         
         moviePlayer = MPMoviePlayerController(contentURL: url)
