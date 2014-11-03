@@ -351,6 +351,17 @@
                                     <segue destination="EAd-ix-GHA" kind="modal" id="j3d-eF-nef"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xxs-fx-5eb">
+                                <rect key="frame" x="25" y="378" width="288" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Chat">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7nm-9M-Vhv" kind="modal" id="6tk-B4-meb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -358,6 +369,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shz-z7-NMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1347" y="360"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="VKX-08-flG">
+            <objects>
+                <viewController id="7nm-9M-Vhv" customClass="KCOChat" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9k-FC-i47">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.chat.jpg" id="ISL-xi-lvI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escrbe tu mensaje" minimumFontSize="17" id="saG-Np-dcM">
+                                <rect key="frame" x="10" y="532" width="241" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textoChat" destination="7nm-9M-Vhv" eventType="editingDidEndOnExit" id="6J8-qv-GGw"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HyY-fc-32T">
+                                <rect key="frame" x="80" y="127" width="219" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TaV-9w-6u3">
+                                <rect key="frame" x="251" y="531" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="Enviar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botonEnviar:" destination="7nm-9M-Vhv" eventType="touchUpInside" id="NOc-di-O3l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="TextoMostrado" destination="HyY-fc-32T" id="F7O-IY-InH"/>
+                        <outlet property="campoTexto" destination="saG-Np-dcM" id="8Lu-yi-owP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83F-6f-J1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1341" y="1012"/>
         </scene>
         <!--Muro-->
         <scene sceneID="bZ3-l4-kjs">
@@ -492,7 +555,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Articulo01.png" id="CMG-1X-d5e">
-                                                    <rect key="frame" x="-2" y="-13" width="960" height="263"/>
+                                                    <rect key="frame" x="-2" y="-13" width="1280" height="345"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -518,6 +581,7 @@
         <image name="3.Main-MenuA.jpg" width="640" height="1136"/>
         <image name="4.Main-Menu.jpg" width="640" height="1136"/>
         <image name="5.Home.jpg" width="640" height="1136"/>
+        <image name="8.chat.jpg" width="640" height="1136"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
         <image name="Articulo01.png" width="600" height="167"/>
         <image name="BackgroundArticulos.jpg" width="640" height="1136"/>

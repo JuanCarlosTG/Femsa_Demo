@@ -10,6 +10,10 @@ import UIKit
 
 class KCOChat: UIViewController {
 
+    
+    @IBOutlet var TextoMostrado: UILabel!
+    @IBOutlet var campoTexto: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,5 +27,14 @@ class KCOChat: UIViewController {
     
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    
+//    @IBAction func textoMostrado(nameTextField: UITextField) {
+//        textoChat.text = nameTextField.text)"
+//    }
+
+    @IBAction func botonEnviar(sender: UIButton) {
+        TextoMostrado.text = campoTexto.text
     }
 }
