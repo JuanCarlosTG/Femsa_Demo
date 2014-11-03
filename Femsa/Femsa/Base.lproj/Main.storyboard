@@ -530,7 +530,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundArticulos.jpg" id="mG5-lg-VQx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6.articulos.jpg" id="hzH-UX-uVl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -544,26 +544,6 @@
                                     <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="Tob-X3-dsk"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="82.5" sectionHeaderHeight="22" sectionFooterHeight="22" id="9Tr-WX-iZk">
-                                <rect key="frame" x="0.0" y="51" width="320" height="517"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="dtx-Ec-q5D">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dtx-Ec-q5D" id="dOT-tP-7EB">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Articulo01.png" id="CMG-1X-d5e">
-                                                    <rect key="frame" x="-2" y="-13" width="1280" height="345"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                                <sections/>
-                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -581,10 +561,9 @@
         <image name="3.Main-MenuA.jpg" width="640" height="1136"/>
         <image name="4.Main-Menu.jpg" width="640" height="1136"/>
         <image name="5.Home.jpg" width="640" height="1136"/>
+        <image name="6.articulos.jpg" width="640" height="1136"/>
         <image name="8.chat.jpg" width="640" height="1136"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
-        <image name="Articulo01.png" width="600" height="167"/>
-        <image name="BackgroundArticulos.jpg" width="640" height="1136"/>
         <image name="Booklet.jpg" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -593,8 +572,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="I7L-WS-agU"/>
-        <segue reference="j3d-eF-nef"/>
         <segue reference="4vJ-Y5-LhR"/>
+        <segue reference="j3d-eF-nef"/>
+        <segue reference="Tob-X3-dsk"/>
     </inferredMetricsTieBreakers>
 </document>

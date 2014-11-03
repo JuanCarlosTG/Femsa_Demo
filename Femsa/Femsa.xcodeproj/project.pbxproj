@@ -39,6 +39,7 @@
 		C0161C1C1A02E4CB00010370 /* Articulo05.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C151A02E4CB00010370 /* Articulo05.png */; };
 		C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C161A02E4CB00010370 /* Articulo06.png */; };
 		C0161C1E1A02E4CB00010370 /* BackgroundArticulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */; };
+		C02713641A08282100D0314C /* 6.articulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C02713631A08282100D0314C /* 6.articulos.jpg */; };
 		C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD929B1A01637300EF3884 /* KCOMenu.swift */; };
 		C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */; };
 		C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */; };
@@ -105,6 +106,7 @@
 		C0161C151A02E4CB00010370 /* Articulo05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo05.png; sourceTree = "<group>"; };
 		C0161C161A02E4CB00010370 /* Articulo06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo06.png; sourceTree = "<group>"; };
 		C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundArticulos.jpg; sourceTree = "<group>"; };
+		C02713631A08282100D0314C /* 6.articulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.articulos.jpg; sourceTree = "<group>"; };
 		C0AD929B1A01637300EF3884 /* KCOMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu.swift; sourceTree = "<group>"; };
 		C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOMenuLiderazgo.swift; path = ../KCOMenuLiderazgo.swift; sourceTree = "<group>"; };
 		C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOBooklet.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				C0161C111A02E4CB00010370 /* Articulo01.png */,
 				C0161C121A02E4CB00010370 /* Articulo02.png */,
 				C0161C131A02E4CB00010370 /* Articulo03.png */,
+				C02713631A08282100D0314C /* 6.articulos.jpg */,
 				C0161C141A02E4CB00010370 /* Articulo04.png */,
 				C0161C151A02E4CB00010370 /* Articulo05.png */,
 				C0161C161A02E4CB00010370 /* Articulo06.png */,
@@ -405,6 +408,7 @@
 				C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */,
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
 				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
+				C02713641A08282100D0314C /* 6.articulos.jpg in Resources */,
 				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
 				C0BB75941A00BCE600B6D5BE /* 4.Main-Menu.jpg in Resources */,
 				C01111AA1A0409B000A8C77A /* KOFDemoTV.mov in Resources */,
