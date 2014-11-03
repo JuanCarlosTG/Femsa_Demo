@@ -19,8 +19,7 @@ class KCOVideo: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func VIDEO(sender: AnyObject) {
-        
+    @IBAction func video_Final(sender: AnyObject) {
         var url:NSURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("KOFDemoTV", ofType: "mov")!)!
         
         
@@ -33,6 +32,7 @@ class KCOVideo: UIViewController {
         moviePlayer.fullscreen = true
         
         moviePlayer.controlStyle = MPMovieControlStyle.Embedded
+    
     }
     
     override func prefersStatusBarHidden() -> Bool {

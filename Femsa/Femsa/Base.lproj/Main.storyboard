@@ -297,6 +297,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.Home.jpg" id="QdU-mg-LBC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ORn-Hj-FjP">
                                 <rect key="frame" x="16" y="207" width="288" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -304,7 +308,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="q26-eE-wXY" kind="modal" modalTransitionStyle="partialCurl" id="UoF-JU-pop"/>
+                                    <segue destination="eXS-qE-5bG" kind="modal" id="gNC-h6-w2O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sry-Kd-Hgk">
@@ -337,10 +341,6 @@
                                     <segue destination="LtS-rM-rY5" kind="modal" modalTransitionStyle="partialCurl" id="fl8-ja-TQe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.Home.jpg" id="QdU-mg-LBC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VSz-PL-xyt">
                                 <rect key="frame" x="114" y="0.0" width="98" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -357,7 +357,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shz-z7-NMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1241" y="265"/>
+            <point key="canvasLocation" x="1347" y="360"/>
         </scene>
         <!--Muro-->
         <scene sceneID="bZ3-l4-kjs">
@@ -387,7 +387,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVT-yA-Btt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2405" y="1248"/>
+            <point key="canvasLocation" x="2405" y="1084"/>
         </scene>
         <!--Juego-->
         <scene sceneID="Klm-V2-iGt">
@@ -417,47 +417,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6y8-4a-u4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2405" y="272"/>
+            <point key="canvasLocation" x="2413" y="252"/>
         </scene>
         <!--Video-->
-        <scene sceneID="5h3-Gj-lM1">
+        <scene sceneID="fAQ-5r-QCp">
             <objects>
-                <viewController id="q26-eE-wXY" customClass="KCOVideo" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uwR-pD-xfl">
+                <viewController id="eXS-qE-5bG" customClass="KCOVideo" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gN3-ov-MeT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Q06-9i-62H">
-                                <rect key="frame" x="12" y="12" width="25" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="RIX-Rw-gTm"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11.videos.jpg" id="fPL-HQ-X3Z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11.videos.jpg" id="XOu-FU-k1c">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ycl-3F-zqL">
-                                <rect key="frame" x="0.0" y="50" width="320" height="250"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r7p-7e-5dS">
+                                <rect key="frame" x="4" y="0.0" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="VIDEO:" destination="q26-eE-wXY" eventType="touchUpInside" id="a4G-CM-Boe"/>
+                                    <segue destination="SkL-5d-bCe" kind="modal" id="I7L-WS-agU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fM2-6J-eJR">
+                                <rect key="frame" x="0.0" y="53" width="320" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="video_Final:" destination="eXS-qE-5bG" eventType="touchUpInside" id="DEo-H0-slz"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4qp-jy-gNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iiV-Md-3Gt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2405" y="-1454"/>
+            <point key="canvasLocation" x="2405" y="-1304"/>
         </scene>
         <!--Articulo-->
         <scene sceneID="THi-lX-SF9">
@@ -492,7 +492,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Articulo01.png" id="CMG-1X-d5e">
-                                                    <rect key="frame" x="-2" y="-13" width="640" height="181"/>
+                                                    <rect key="frame" x="-2" y="-13" width="960" height="263"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -507,7 +507,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FX6-MS-H8C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2405" y="-630"/>
+            <point key="canvasLocation" x="2405" y="-542"/>
         </scene>
     </scenes>
     <resources>
@@ -529,7 +529,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="RIX-Rw-gTm"/>
+        <segue reference="I7L-WS-agU"/>
         <segue reference="j3d-eF-nef"/>
         <segue reference="4vJ-Y5-LhR"/>
     </inferredMetricsTieBreakers>
