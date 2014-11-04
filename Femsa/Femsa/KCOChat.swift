@@ -10,10 +10,10 @@ import UIKit
 
 class KCOChat: UIViewController {
 
-    
-    //@IBOutlet var TextoMostrado: UILabel!
     @IBOutlet var campoTexto: UITextField!
     @IBOutlet var TextoMostrado2: UITextView!
+    @IBOutlet var TextoMostrado3: UITextView!
+    @IBOutlet var TextoMostrado4: UITextView!
     var contador = 0
 
     
@@ -32,15 +32,29 @@ class KCOChat: UIViewController {
         return true
     }
     
-    
-//    @IBAction func textoMostrado(nameTextField: UITextField) {
-//        textoChat.text = nameTextField.text)"
-//    }
 
     @IBAction func botonEnviar(sender: UIButton) {
-        //TextoMostrado.text = campoTexto.text
-        TextoMostrado2.text = campoTexto.text
-        TextoMostrado2.backgroundColor = UIColor(red: 237, green: 229, blue: 220, alpha: 1)
-        campoTexto.text=""
+       
+        if contador == 0
+        {
+            TextoMostrado2.text = campoTexto.text
+            TextoMostrado2.backgroundColor = UIColor(red: 237, green: 229, blue: 220, alpha: 1)
+            campoTexto.text=""
+        }
+        if contador == 1
+        {
+            TextoMostrado3.text = campoTexto.text
+            TextoMostrado3.backgroundColor = UIColor(red: 237, green: 229, blue: 220, alpha: 1)
+            campoTexto.text=""
+        }
+        if contador == 2
+        {
+            TextoMostrado4.text = campoTexto.text
+            TextoMostrado4.backgroundColor = UIColor(red: 237, green: 229, blue: 220, alpha: 1)
+            campoTexto.text=""
+        }
+        contador += 1
+
     }
+    
 }

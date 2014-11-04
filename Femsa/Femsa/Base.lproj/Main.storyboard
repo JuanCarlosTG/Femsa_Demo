@@ -371,6 +371,18 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.94385834854014594" blue="0.95228056121711968" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MYT-Ue-QJv">
+                                <rect key="frame" x="80" y="128" width="224" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="VGd-YP-ikq">
+                                <rect key="frame" x="16" y="179" width="214" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJ8-Qt-iAM">
                                 <rect key="frame" x="5" y="4" width="45" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -381,6 +393,15 @@
                                     <segue destination="SkL-5d-bCe" kind="modal" id="1Nx-eZ-v0h"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escrbe tu mensaje" minimumFontSize="17" id="saG-Np-dcM">
+                                <rect key="frame" x="10" y="532" width="241" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textoChat" destination="7nm-9M-Vhv" eventType="editingDidEndOnExit" id="6J8-qv-GGw"/>
+                                </connections>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TaV-9w-6u3">
                                 <rect key="frame" x="251" y="531" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -393,17 +414,8 @@
                                     <action selector="botonEnviar:" destination="7nm-9M-Vhv" eventType="touchUpInside" id="NOc-di-O3l"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escrbe tu mensaje" minimumFontSize="17" id="saG-Np-dcM">
-                                <rect key="frame" x="10" y="532" width="241" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textoChat" destination="7nm-9M-Vhv" eventType="editingDidEndOnExit" id="6J8-qv-GGw"/>
-                                </connections>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MYT-Ue-QJv">
-                                <rect key="frame" x="80" y="128" width="224" height="71"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hJI-NW-jAo">
+                                <rect key="frame" x="80" y="232" width="224" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -413,12 +425,14 @@
                     </view>
                     <connections>
                         <outlet property="TextoMostrado2" destination="MYT-Ue-QJv" id="zFh-O9-X4i"/>
+                        <outlet property="TextoMostrado3" destination="VGd-YP-ikq" id="FxU-5t-Wtw"/>
+                        <outlet property="TextoMostrado4" destination="hJI-NW-jAo" id="FEI-K1-Zy2"/>
                         <outlet property="campoTexto" destination="saG-Np-dcM" id="8Lu-yi-owP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83F-6f-J1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2167" y="1829"/>
+            <point key="canvasLocation" x="2413" y="1841"/>
         </scene>
         <!--Muro-->
         <scene sceneID="bZ3-l4-kjs">
@@ -448,7 +462,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVT-yA-Btt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2167" y="1050"/>
+            <point key="canvasLocation" x="2413" y="1046"/>
         </scene>
         <!--Juego-->
         <scene sceneID="Klm-V2-iGt">
@@ -560,7 +574,7 @@
         <image name="4.Main-Menu.jpg" width="640" height="1136"/>
         <image name="5.Home.jpg" width="640" height="1136"/>
         <image name="6.articulos.jpg" width="640" height="1136"/>
-        <image name="8.chat.jpg" width="640" height="1136"/>
+        <image name="8.chat.jpg" width="451" height="800"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
         <image name="Booklet.jpg" width="640" height="1136"/>
     </resources>
