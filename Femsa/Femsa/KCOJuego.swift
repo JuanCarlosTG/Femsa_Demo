@@ -33,7 +33,7 @@ class KCOJuego: UIViewController
     
     func shouldLoadCustomURL( )
     {
-        let customURL = "https://www.google.com"
+        let customURL = "http://kreativeco.com/demo-banorte/"
         let url : NSURL = NSURL( string: customURL )!
         let request : NSURLRequest = NSURLRequest( URL: url )
         
