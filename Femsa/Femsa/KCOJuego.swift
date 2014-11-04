@@ -8,28 +8,35 @@
 
 import UIKit
 
-class KCOJuego: UIViewController {
+class KCOJuego: UIViewController
+{
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    //Properties
+    @IBOutlet weak var webContainer: UIWebView!
+    
+    override func viewDidLoad( )
+    {
+        super.viewDidLoad( )
+        
+        self.shouldLoadCustomURL( )
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func didReceiveMemoryWarning( )
+    {
+        super.didReceiveMemoryWarning( )
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func prefersStatusBarHidden() -> Bool
+    {
+        return true
     }
-    */
-
+    
+    func shouldLoadCustomURL( )
+    {
+        let customURL = "https://www.google.com"
+        let url : NSURL = NSURL( string: customURL )!
+        let request : NSURLRequest = NSURLRequest( URL: url )
+        
+        webContainer.loadRequest( request )
+    }
 }
