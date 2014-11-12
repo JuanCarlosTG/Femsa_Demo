@@ -12,10 +12,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.Login.jpg" id="W9j-Us-XIP">
-                                <rect key="frame" x="-6" y="0.0" width="333" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="F6p-1I-NNF">
                                 <rect key="frame" x="52" y="303" width="219" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,6 +34,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.Login.jpg" id="W9j-Us-XIP">
+                                <rect key="frame" x="-6" y="0.0" width="333" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                     </view>
                 </viewController>
@@ -269,6 +269,16 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VJg-ye-6Cx">
+                                <rect key="frame" x="0.0" y="332" width="184" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Hk-px-pW7" kind="modal" modalTransitionStyle="crossDissolve" id="tjm-Km-V6d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -276,6 +286,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW1-a6-yag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="582" y="265"/>
+        </scene>
+        <!--Juego ComercialVC-->
+        <scene sceneID="HKU-Fn-XCD">
+            <objects>
+                <viewController id="6Hk-px-pW7" customClass="KCOJuegoComercialVC" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gqm-Tr-usl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juego.png" id="eNp-n8-n2P">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
+                                <rect key="frame" x="269" y="238" width="29" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke03.png" id="v0J-vk-nGr">
+                                <rect key="frame" x="202" y="204" width="29" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2e-c6-On3">
+                                <rect key="frame" x="0.0" y="0.0" width="54" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EAd-ix-GHA" kind="modal" modalTransitionStyle="flipHorizontal" id="VUS-nc-vRI"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="rGk-ea-QyH">
+                                <rect key="frame" x="236" y="238" width="29" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="coke01" destination="fac-QU-WCJ" id="c1G-Be-ei8"/>
+                        <outlet property="coke02" destination="rGk-ea-QyH" id="4g2-tp-L0j"/>
+                        <outlet property="coke03" destination="v0J-vk-nGr" id="ajF-oK-TeK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i5P-Jo-vae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="582" y="1085"/>
         </scene>
         <!--Menu Liderazgo-->
         <scene sceneID="X9O-l1-apC">
@@ -432,7 +489,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83F-6f-J1m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2413" y="1841"/>
+            <point key="canvasLocation" x="2413" y="1845"/>
         </scene>
         <!--Muro-->
         <scene sceneID="bZ3-l4-kjs">
@@ -542,6 +599,30 @@
             </objects>
             <point key="canvasLocation" x="2405" y="-1304"/>
         </scene>
+        <!--ViewerVC-->
+        <scene sceneID="OO0-P7-Szi">
+            <objects>
+                <viewController id="dTq-xk-ayp" customClass="KCOPDFViewerVC" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="37u-Hf-Hla">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="9nh-e7-Pas">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="PDFUIWebView" destination="9nh-e7-Pas" id="KgB-YU-hfx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zm0-q5-TvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2965" y="-542"/>
+        </scene>
         <!--Articulo-->
         <scene sceneID="THi-lX-SF9">
             <objects>
@@ -554,14 +635,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tJU-nA-7Sa">
-                                <rect key="frame" x="12" y="12" width="25" height="25"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tJU-nA-7Sa" userLabel="Back">
+                                <rect key="frame" x="0.0" y="0.0" width="46" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="Tob-X3-dsk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TdR-y8-tDL" userLabel="PDfViewer">
+                                <rect key="frame" x="16" y="62" width="288" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dTq-xk-ayp" kind="modal" id="8xQ-4v-IFt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -585,6 +676,9 @@
         <image name="8.chat.jpg" width="451" height="800"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
         <image name="Booklet.jpg" width="640" height="1136"/>
+        <image name="coke02.png" width="29" height="51"/>
+        <image name="coke03.png" width="29" height="85"/>
+        <image name="juego.png" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -592,8 +686,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="yQh-jL-WOZ"/>
         <segue reference="4vJ-Y5-LhR"/>
-        <segue reference="j3d-eF-nef"/>
+        <segue reference="Tob-X3-dsk"/>
+        <segue reference="VUS-nc-vRI"/>
     </inferredMetricsTieBreakers>
 </document>

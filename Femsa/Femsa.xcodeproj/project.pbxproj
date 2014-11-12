@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3662231A12B41D00705ECA /* juego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3662221A12B41D00705ECA /* juego.jpg */; };
+		BF3662251A12B54500705ECA /* juego.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662241A12B54500705ECA /* juego.png */; };
+		BF3662291A12B5DB00705ECA /* coke01.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662261A12B5DB00705ECA /* coke01.png */; };
+		BF36622A1A12B5DB00705ECA /* coke02.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662271A12B5DB00705ECA /* coke02.png */; };
+		BF36622B1A12B5DB00705ECA /* coke03.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662281A12B5DB00705ECA /* coke03.png */; };
+		BF36622D1A12B88F00705ECA /* KCOJuegoComercialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */; };
+		BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */; };
+		BF3662311A130DD900705ECA /* WhatsNewIniPhoneOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */; };
 		C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */; };
 		C011119B1A04042F00A8C77A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */; };
 		C011119C1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */; };
@@ -74,6 +82,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF3662221A12B41D00705ECA /* juego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juego.jpg; sourceTree = "<group>"; };
+		BF3662241A12B54500705ECA /* juego.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juego.png; sourceTree = "<group>"; };
+		BF3662261A12B5DB00705ECA /* coke01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke01.png; sourceTree = "<group>"; };
+		BF3662271A12B5DB00705ECA /* coke02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke02.png; sourceTree = "<group>"; };
+		BF3662281A12B5DB00705ECA /* coke03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke03.png; sourceTree = "<group>"; };
+		BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOJuegoComercialVC.swift; sourceTree = "<group>"; };
+		BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOPDFViewerVC.swift; sourceTree = "<group>"; };
+		BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = WhatsNewIniPhoneOS.pdf; sourceTree = "<group>"; };
 		C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
@@ -238,6 +254,7 @@
 			children = (
 				C01111871A04042F00A8C77A /* IQKeybordManagerSwift */,
 				C0161C081A02C3E500010370 /* KCOVideo.swift */,
+				BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */,
 				C0BB75651A00B3AA00B6D5BE /* AppDelegate.swift */,
 				C0BB75671A00B3AA00B6D5BE /* ViewController.swift */,
 				C0161BF21A02BF9800010370 /* KCOPerfil.swift */,
@@ -251,8 +268,10 @@
 				C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */,
 				C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */,
 				C0161C0A1A02C6D000010370 /* KCOJuego.swift */,
+				BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */,
 				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
 				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
+				BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */,
 				C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */,
 				C0BB75631A00B3A900B6D5BE /* Supporting Files */,
 			);
@@ -262,8 +281,13 @@
 		C0BB75631A00B3A900B6D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF3662261A12B5DB00705ECA /* coke01.png */,
+				BF3662271A12B5DB00705ECA /* coke02.png */,
+				BF3662281A12B5DB00705ECA /* coke03.png */,
 				C01111A91A0409B000A8C77A /* KOFDemoTV.mov */,
 				C0161C111A02E4CB00010370 /* Articulo01.png */,
+				BF3662241A12B54500705ECA /* juego.png */,
+				BF3662221A12B41D00705ECA /* juego.jpg */,
 				C0161C121A02E4CB00010370 /* Articulo02.png */,
 				C0161C131A02E4CB00010370 /* Articulo03.png */,
 				C02713631A08282100D0314C /* 6.articulos.jpg */,
@@ -355,6 +379,7 @@
 				TargetAttributes = {
 					C0BB755F1A00B3A900B6D5BE = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 884LFU3L56;
 					};
 					C0BB75741A00B3AA00B6D5BE = {
 						CreatedOnToolsVersion = 6.1;
@@ -388,11 +413,16 @@
 			files = (
 				C0BB75921A00BCE600B6D5BE /* 2.Login.jpg in Resources */,
 				C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */,
+				BF3662251A12B54500705ECA /* juego.png in Resources */,
 				C0BB75971A00BCE600B6D5BE /* 7.Calendar.jpg in Resources */,
+				BF36622B1A12B5DB00705ECA /* coke03.png in Resources */,
 				C0BB75911A00BCE600B6D5BE /* 1.Splash.jpg in Resources */,
+				BF36622A1A12B5DB00705ECA /* coke02.png in Resources */,
 				C0BB75701A00B3AA00B6D5BE /* LaunchScreen.xib in Resources */,
 				C01111A61A04042F00A8C77A /* IQKeyboardManager.bundle in Resources */,
+				BF3662231A12B41D00705ECA /* juego.jpg in Resources */,
 				C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */,
+				BF3662311A130DD900705ECA /* WhatsNewIniPhoneOS.pdf in Resources */,
 				C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */,
 				C0161C101A02DF8400010370 /* Booklet.jpg in Resources */,
 				C0BB75931A00BCE600B6D5BE /* 3.Main-MenuA.jpg in Resources */,
@@ -407,6 +437,7 @@
 				C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */,
 				C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */,
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
+				BF3662291A12B5DB00705ECA /* coke01.png in Resources */,
 				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
 				C02713641A08282100D0314C /* 6.articulos.jpg in Resources */,
 				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
@@ -442,6 +473,8 @@
 				C0161C0B1A02C6D000010370 /* KCOJuego.swift in Sources */,
 				C0161BFD1A02C07C00010370 /* KCOCalendario.swift in Sources */,
 				C0161BF71A02C01A00010370 /* KCOBolsaDeTrabajo.swift in Sources */,
+				BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */,
+				BF36622D1A12B88F00705ECA /* KCOJuegoComercialVC.swift in Sources */,
 				C01111A41A04042F00A8C77A /* IQToolbar.swift in Sources */,
 				C011119D1A04042F00A8C77A /* IQKeyboardManagerConstants.swift in Sources */,
 				C0161C091A02C3E500010370 /* KCOVideo.swift in Sources */,
@@ -577,7 +610,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Luis E Flores Bolivar (67H8U96F68)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -589,7 +622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Luis E Flores Bolivar (67H8U96F68)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
