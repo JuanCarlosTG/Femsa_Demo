@@ -308,12 +308,8 @@
                                     <segue destination="EAd-ix-GHA" kind="modal" modalTransitionStyle="flipHorizontal" id="VUS-nc-vRI"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
-                                <rect key="frame" x="130" y="488" width="15" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="rGk-ea-QyH">
-                                <rect key="frame" x="105" y="488" width="15" height="28"/>
+                                <rect key="frame" x="130" y="488" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke03.png" id="v0J-vk-nGr">
@@ -326,6 +322,10 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poster.png" id="bZ1-MR-XCd">
                                 <rect key="frame" x="206" y="371" width="107" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
+                                <rect key="frame" x="107" y="488" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
