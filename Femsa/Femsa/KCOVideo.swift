@@ -2,7 +2,7 @@
 //  KCOVideo.swift
 //  Femsa
 //
-//  Created by Jossue on 30/10/14.
+//  Created by KREATIVECO on 30/10/14.
 //  Copyright (c) 2014 JCKreactiveco001. All rights reserved.
 //
 
@@ -40,9 +40,3 @@ class KCOVideo: UIViewController {
     }
     
 }
-
-//MPMoviePlayerViewController *player = [[MPMoviePlayerViewController alloc] initWithContentURL: URL];
-//[self presentMoviePlayerViewControllerAnimated: player];
-//player.moviePlayer.movieSourceType = MPMovieSourceTypeFile;
-//[player.moviePlayer play];
-//player = nil;

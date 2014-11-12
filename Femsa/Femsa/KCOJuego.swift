@@ -2,7 +2,7 @@
 //  KCOJuego.swift
 //  Femsa
 //
-//  Created by Jossue on 30/10/14.
+//  Created by KREATIVECO on 30/10/14.
 //  Copyright (c) 2014 JCKreactiveco001. All rights reserved.
 //
 
