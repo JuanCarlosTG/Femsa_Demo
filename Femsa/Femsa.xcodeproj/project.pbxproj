@@ -69,6 +69,7 @@
 		C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */; };
 		C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */; };
 		C0C41AC91A13CEBA000A7472 /* KCOComercialGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */; };
+		C0C41ACB1A13E9E7000A7472 /* poster.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C41ACA1A13E9E7000A7472 /* poster.png */; };
 		C0E80D4E1A13CA3B0020AF9D /* JuegoComercial.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +150,7 @@
 		C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.menuIndEmpleo.jpg; sourceTree = "<group>"; };
 		C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.videos.jpg; sourceTree = "<group>"; };
 		C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOComercialGameVC.swift; path = ../KCOComercialGameVC.swift; sourceTree = "<group>"; };
+		C0C41ACA1A13E9E7000A7472 /* poster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poster.png; sourceTree = "<group>"; };
 		C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JuegoComercial.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */,
+				C0C41ACA1A13E9E7000A7472 /* poster.png */,
 				BF3662261A12B5DB00705ECA /* coke01.png */,
 				BF3662271A12B5DB00705ECA /* coke02.png */,
 				BF3662281A12B5DB00705ECA /* coke03.png */,
@@ -438,6 +441,7 @@
 				C0161C181A02E4CB00010370 /* Articulo01.png in Resources */,
 				C0161C191A02E4CB00010370 /* Articulo02.png in Resources */,
 				C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */,
+				C0C41ACB1A13E9E7000A7472 /* poster.png in Resources */,
 				C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */,
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
 				BF3662291A12B5DB00705ECA /* coke01.png in Resources */,

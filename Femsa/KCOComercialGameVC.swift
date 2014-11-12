@@ -18,6 +18,7 @@ class KCOComercialGameVC: UIViewController {
     @IBOutlet weak var coke02: UIImageView!
     @IBOutlet weak var coke03: UIImageView!
     @IBOutlet weak var coke04: UIImageView!
+    @IBOutlet weak var posterCoke: UIImageView!
    
     
     //touchesMoved for the logical of game
@@ -59,7 +60,7 @@ class KCOComercialGameVC: UIViewController {
         }
             
         else if((position.x <= coke03.centerX+8 && position.x >= coke03.centerX-8) && (position.y <= coke03.centerY+22 && position.y >= coke03.centerY-22)){
-            //coke03.center = position
+            
             if((position.x <= self.view.x+115.5 && position.x >= self.view.x+105) || (position.y <= self.view.y+299 && position.y >= self.view.y+262)){
                 
                 coke03.center = CGPoint(x: 136.5, y: 299)
@@ -73,7 +74,7 @@ class KCOComercialGameVC: UIViewController {
         }
         
         else if((position.x <= coke04.centerX+8 && position.x >= coke04.centerX-8) && (position.y <= coke04.centerY+26 && position.y >= coke04.centerY-26)){
-            //coke04.center = position
+            
             if((position.x <= self.view.x+130.5 && position.x >= self.view.x+125) || (position.y <= self.view.y+363 && position.y >= self.view.y+323)){
                 
                 coke04.center = CGPoint(x: 130.5, y: 363)
@@ -86,11 +87,26 @@ class KCOComercialGameVC: UIViewController {
             }
         }
         
+        else if((position.x <= posterCoke.centerX+100 && position.x >= posterCoke.centerX-100) && (position.y <= posterCoke.centerY+100 && position.y >= posterCoke.centerY-100)){
+            
+            if((position.x <= self.view.x+300.5 && position.x >= self.view.x+270) || (position.y <= self.view.y+150 && position.y >= self.view.y+223)){
+                
+                posterCoke.center = CGPoint(x: 250.5, y: 223)
+                
+            }
+            else{
+                
+                posterCoke.center = position
+                
+            }
+
+        }
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //coke04.center = CGPoint(x: 130.5, y: 363)
+
     }
     
     override func didReceiveMemoryWarning() {
