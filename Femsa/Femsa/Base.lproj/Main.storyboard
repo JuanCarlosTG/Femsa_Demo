@@ -286,21 +286,17 @@
             </objects>
             <point key="canvasLocation" x="582" y="265"/>
         </scene>
-        <!--Juego ComercialVC-->
+        <!--Comercial GameVC-->
         <scene sceneID="HKU-Fn-XCD">
             <objects>
-                <viewController id="6Hk-px-pW7" customClass="KCOJuegoComercialVC" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Hk-px-pW7" customClass="KCOComercialGameVC" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gqm-Tr-usl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juego.png" id="eNp-n8-n2P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JuegoComercial.jpeg" id="eNp-n8-n2P">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
-                                <rect key="frame" x="283" y="261" width="15" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2e-c6-On3">
                                 <rect key="frame" x="0.0" y="0.0" width="54" height="53"/>
@@ -312,21 +308,30 @@
                                     <segue destination="EAd-ix-GHA" kind="modal" modalTransitionStyle="flipHorizontal" id="VUS-nc-vRI"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
+                                <rect key="frame" x="143" y="488" width="15" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="rGk-ea-QyH">
-                                <rect key="frame" x="260" y="261" width="15" height="28"/>
+                                <rect key="frame" x="118" y="488" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke03.png" id="v0J-vk-nGr">
-                                <rect key="frame" x="236" y="244" width="16" height="45"/>
+                                <rect key="frame" x="166" y="471" width="16" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke01.png" id="8ha-h2-07D">
+                                <rect key="frame" x="190" y="462" width="18" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="coke01" destination="fac-QU-WCJ" id="c1G-Be-ei8"/>
-                        <outlet property="coke02" destination="rGk-ea-QyH" id="4g2-tp-L0j"/>
-                        <outlet property="coke03" destination="v0J-vk-nGr" id="ajF-oK-TeK"/>
+                        <outlet property="coke01" destination="fac-QU-WCJ" id="itV-oN-zFq"/>
+                        <outlet property="coke02" destination="rGk-ea-QyH" id="90c-GF-LFn"/>
+                        <outlet property="coke03" destination="v0J-vk-nGr" id="v1D-64-NDI"/>
+                        <outlet property="coke04" destination="8ha-h2-07D" id="I1G-eE-mMy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i5P-Jo-vae" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -675,9 +680,10 @@
         <image name="8.chat.jpg" width="451" height="800"/>
         <image name="9.juego.jpg" width="640" height="1136"/>
         <image name="Booklet.jpg" width="640" height="1136"/>
+        <image name="JuegoComercial.jpeg" width="451" height="800"/>
+        <image name="coke01.png" width="35" height="107"/>
         <image name="coke02.png" width="29" height="51"/>
         <image name="coke03.png" width="29" height="85"/>
-        <image name="juego.png" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -685,8 +691,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="4vJ-Y5-LhR"/>
-        <segue reference="Tob-X3-dsk"/>
+        <segue reference="Fwl-40-Aoe"/>
         <segue reference="VUS-nc-vRI"/>
+        <segue reference="Un0-Ew-iqd"/>
     </inferredMetricsTieBreakers>
 </document>

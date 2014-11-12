@@ -12,7 +12,6 @@
 		BF3662291A12B5DB00705ECA /* coke01.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662261A12B5DB00705ECA /* coke01.png */; };
 		BF36622A1A12B5DB00705ECA /* coke02.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662271A12B5DB00705ECA /* coke02.png */; };
 		BF36622B1A12B5DB00705ECA /* coke03.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662281A12B5DB00705ECA /* coke03.png */; };
-		BF36622D1A12B88F00705ECA /* KCOJuegoComercialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */; };
 		BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */; };
 		BF3662311A130DD900705ECA /* WhatsNewIniPhoneOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */; };
 		C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */; };
@@ -69,6 +68,8 @@
 		C0BB759A1A00BCE600B6D5BE /* 10.muro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */; };
 		C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */; };
 		C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */; };
+		C0C41AC91A13CEBA000A7472 /* KCOComercialGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */; };
+		C0E80D4E1A13CA3B0020AF9D /* JuegoComercial.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +88,6 @@
 		BF3662261A12B5DB00705ECA /* coke01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke01.png; sourceTree = "<group>"; };
 		BF3662271A12B5DB00705ECA /* coke02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke02.png; sourceTree = "<group>"; };
 		BF3662281A12B5DB00705ECA /* coke03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke03.png; sourceTree = "<group>"; };
-		BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOJuegoComercialVC.swift; sourceTree = "<group>"; };
 		BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOPDFViewerVC.swift; sourceTree = "<group>"; };
 		BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = WhatsNewIniPhoneOS.pdf; sourceTree = "<group>"; };
 		C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
@@ -148,6 +148,8 @@
 		C0BB758E1A00BCE600B6D5BE /* 10.muro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.muro.jpg; sourceTree = "<group>"; };
 		C0BB75901A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.menuIndEmpleo.jpg; sourceTree = "<group>"; };
 		C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.videos.jpg; sourceTree = "<group>"; };
+		C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOComercialGameVC.swift; path = ../KCOComercialGameVC.swift; sourceTree = "<group>"; };
+		C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JuegoComercial.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +270,7 @@
 				C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */,
 				C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */,
 				C0161C0A1A02C6D000010370 /* KCOJuego.swift */,
-				BF36622C1A12B88F00705ECA /* KCOJuegoComercialVC.swift */,
+				C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */,
 				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
 				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
 				BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */,
@@ -281,6 +283,7 @@
 		C0BB75631A00B3A900B6D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */,
 				BF3662261A12B5DB00705ECA /* coke01.png */,
 				BF3662271A12B5DB00705ECA /* coke02.png */,
 				BF3662281A12B5DB00705ECA /* coke03.png */,
@@ -439,6 +442,7 @@
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
 				BF3662291A12B5DB00705ECA /* coke01.png in Resources */,
 				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
+				C0E80D4E1A13CA3B0020AF9D /* JuegoComercial.jpeg in Resources */,
 				C02713641A08282100D0314C /* 6.articulos.jpg in Resources */,
 				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
 				C0BB75941A00BCE600B6D5BE /* 4.Main-Menu.jpg in Resources */,
@@ -474,12 +478,12 @@
 				C0161BFD1A02C07C00010370 /* KCOCalendario.swift in Sources */,
 				C0161BF71A02C01A00010370 /* KCOBolsaDeTrabajo.swift in Sources */,
 				BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */,
-				BF36622D1A12B88F00705ECA /* KCOJuegoComercialVC.swift in Sources */,
 				C01111A41A04042F00A8C77A /* IQToolbar.swift in Sources */,
 				C011119D1A04042F00A8C77A /* IQKeyboardManagerConstants.swift in Sources */,
 				C0161C091A02C3E500010370 /* KCOVideo.swift in Sources */,
 				C0BB75661A00B3AA00B6D5BE /* AppDelegate.swift in Sources */,
 				C011119E1A04042F00A8C77A /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				C0C41AC91A13CEBA000A7472 /* KCOComercialGameVC.swift in Sources */,
 				C01111A51A04042F00A8C77A /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */,
 				C011119C1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift in Sources */,
