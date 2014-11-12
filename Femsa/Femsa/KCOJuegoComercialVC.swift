@@ -10,16 +10,24 @@ import UIKit
 
 class KCOJuegoComercialVC: UIViewController {
     
+    //properties
     var position = CGPoint(x: 0, y: 0)
     
+    //images
     @IBOutlet weak var coke01: UIImageView!
     @IBOutlet weak var coke02: UIImageView!
     @IBOutlet weak var coke03: UIImageView!
     
+    //touchesMoved for the logical of game
     override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
-      
+        
+        //properties
         var touch1 : UITouch! = touches.anyObject() as UITouch
+        
         position = touch1.locationInView(self.view)
+        
+        // Movement of images
+        
         if((position.x <= coke01.centerX+7 && position.x >= coke01.centerX-7) && (position.y <= coke01.centerY+14 && position.y >= coke01.centerY-14)){
             coke01.center = position
         }
@@ -36,14 +44,16 @@ class KCOJuegoComercialVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //coke01.center = CGPoint(x: 285, y: 263)
-        //coke02.center = CGPoint(x: 250, y: 263)
-        //coke03.center = CGPoint(x: 215, y: 246)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prefersStatusBarHidden() -> Bool
+    {
+        return true
     }
 
 }

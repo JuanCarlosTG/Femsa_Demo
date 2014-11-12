@@ -30,6 +30,11 @@ class KCOPDFViewerVC: UIViewController {
         let request : NSURLRequest = NSURLRequest( URL: url )
         PDFUIWebView.loadRequest( request )
     }
+    
+    override func prefersStatusBarHidden() -> Bool
+    {
+        return true
+    }
 
 
 }
