@@ -25,7 +25,7 @@ class KCOPDFViewerVC: UIViewController {
     
     func shouldLoadCustomURL( )
     {
-        let path : String = NSBundle.mainBundle( ).pathForResource("WhatsNewIniPhoneOS" , ofType: "pdf" )!
+        let path : String = NSBundle.mainBundle( ).pathForResource("ManualRH" , ofType: "pdf" )!
         let url : NSURL = NSURL( string: path )!
         let request : NSURLRequest = NSURLRequest( URL: url )
         PDFUIWebView.loadRequest( request )

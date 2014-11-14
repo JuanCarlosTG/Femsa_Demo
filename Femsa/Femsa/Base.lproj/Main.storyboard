@@ -221,6 +221,16 @@
                                     <segue destination="SkL-5d-bCe" kind="modal" id="yQh-jL-WOZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jxs-Vt-ivj">
+                                <rect key="frame" x="0.0" y="332" width="190" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Hk-px-pW7" kind="modal" id="bjd-pC-5Wh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -341,7 +351,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i5P-Jo-vae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="1085"/>
+            <point key="canvasLocation" x="582" y="944"/>
         </scene>
         <!--Menu Liderazgo-->
         <scene sceneID="X9O-l1-apC">
@@ -382,7 +392,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tZa-Jl-Rcu" kind="modal" modalTransitionStyle="partialCurl" id="f3C-cH-Lzy"/>
+                                    <segue destination="mVw-Hk-cbl" kind="modal" id="4F0-xS-Hnf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6os-vP-37F">
@@ -422,7 +432,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shz-z7-NMZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1347" y="360"/>
+            <point key="canvasLocation" x="1425" y="288"/>
+        </scene>
+        <!--Juego-->
+        <scene sceneID="0dZ-Nv-NkZ">
+            <objects>
+                <viewController id="mVw-Hk-cbl" customClass="KCOJuego" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eMv-PW-R1k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="rw5-yk-pMZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oQv-bS-pHK">
+                                <rect key="frame" x="5" y="6" width="50" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SkL-5d-bCe" kind="modal" id="ttA-GU-R2k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="webContainer" destination="rw5-yk-pMZ" id="YOE-28-uKf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SvN-Wb-TJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2405" y="265"/>
         </scene>
         <!--Chat-->
         <scene sceneID="VKX-08-flG">
@@ -530,44 +574,6 @@
             </objects>
             <point key="canvasLocation" x="2413" y="1046"/>
         </scene>
-        <!--Juego-->
-        <scene sceneID="Klm-V2-iGt">
-            <objects>
-                <viewController id="tZa-Jl-Rcu" customClass="KCOJuego" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TVg-Qf-fD9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cyH-uP-xkS">
-                                <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="SkL-5d-bCe" kind="modal" modalTransitionStyle="crossDissolve" id="WeM-Tq-4ZH"/>
-                                </connections>
-                            </button>
-                            <webView contentMode="scaleToFill" id="524-ol-mBA">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </webView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9.juego.jpg" id="ARd-E0-gT4">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="webContainer" destination="524-ol-mBA" id="sK0-xi-dpY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6y8-4a-u4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2413" y="252"/>
-        </scene>
         <!--Video-->
         <scene sceneID="fAQ-5r-QCp">
             <objects>
@@ -621,6 +627,16 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wgn-BY-7bO">
+                                <rect key="frame" x="0.0" y="0.0" width="62" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="c9y-3C-NCe" kind="modal" id="fkA-vQ-iV7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -630,7 +646,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zm0-q5-TvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2965" y="-542"/>
+            <point key="canvasLocation" x="2980" y="-517"/>
         </scene>
         <!--Articulo-->
         <scene sceneID="THi-lX-SF9">
@@ -683,7 +699,6 @@
         <image name="5.Home.jpg" width="640" height="1136"/>
         <image name="6.articulos.jpg" width="640" height="1136"/>
         <image name="8.chat.jpg" width="451" height="800"/>
-        <image name="9.juego.jpg" width="640" height="1136"/>
         <image name="Booklet.jpg" width="640" height="1136"/>
         <image name="JuegoComercial.jpeg" width="451" height="800"/>
         <image name="coke01.png" width="35" height="107"/>
@@ -697,8 +712,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Fwl-40-Aoe"/>
-        <segue reference="VUS-nc-vRI"/>
+        <segue reference="yQh-jL-WOZ"/>
         <segue reference="Un0-Ew-iqd"/>
+        <segue reference="VUS-nc-vRI"/>
+        <segue reference="bjd-pC-5Wh"/>
+        <segue reference="fkA-vQ-iV7"/>
     </inferredMetricsTieBreakers>
 </document>

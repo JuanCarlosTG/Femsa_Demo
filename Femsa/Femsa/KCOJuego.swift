@@ -12,12 +12,11 @@ class KCOJuego: UIViewController
 {
 
     //Properties
-    @IBOutlet weak var webContainer: UIWebView!
     
+    @IBOutlet weak var webContainer: UIWebView!
     override func viewDidLoad( )
     {
         super.viewDidLoad( )
-        
         self.shouldLoadCustomURL( )
     }
 
@@ -26,17 +25,18 @@ class KCOJuego: UIViewController
         super.didReceiveMemoryWarning( )
     }
     
-    override func prefersStatusBarHidden() -> Bool
-    {
-        return true
-    }
     
     func shouldLoadCustomURL( )
     {
-        let customURL = "http://kreativeco.com/demo-banorte/"
+        let customURL = "http://www.kreativeco.com/demo-femsa/sections/game.html"
         let url : NSURL = NSURL( string: customURL )!
         let request : NSURLRequest = NSURLRequest( URL: url )
         
         webContainer.loadRequest( request )
+    }
+    
+    override func prefersStatusBarHidden() -> Bool
+    {
+        return true
     }
 }

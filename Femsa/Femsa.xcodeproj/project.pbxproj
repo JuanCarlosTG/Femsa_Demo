@@ -13,7 +13,7 @@
 		BF36622A1A12B5DB00705ECA /* coke02.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662271A12B5DB00705ECA /* coke02.png */; };
 		BF36622B1A12B5DB00705ECA /* coke03.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662281A12B5DB00705ECA /* coke03.png */; };
 		BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */; };
-		BF3662311A130DD900705ECA /* WhatsNewIniPhoneOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */; };
+		BF64C4BB1A1523EC00A226CE /* ManualRH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF64C4B91A1523EC00A226CE /* ManualRH.pdf */; };
 		C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */; };
 		C011119B1A04042F00A8C77A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */; };
 		C011119C1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */; };
@@ -90,7 +90,7 @@
 		BF3662271A12B5DB00705ECA /* coke02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke02.png; sourceTree = "<group>"; };
 		BF3662281A12B5DB00705ECA /* coke03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke03.png; sourceTree = "<group>"; };
 		BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOPDFViewerVC.swift; sourceTree = "<group>"; };
-		BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = WhatsNewIniPhoneOS.pdf; sourceTree = "<group>"; };
+		BF64C4B91A1523EC00A226CE /* ManualRH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ManualRH.pdf; sourceTree = "<group>"; };
 		C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
@@ -275,7 +275,6 @@
 				C0C41AC81A13CEBA000A7472 /* KCOComercialGameVC.swift */,
 				C0BB75691A00B3AA00B6D5BE /* Main.storyboard */,
 				C0BB756C1A00B3AA00B6D5BE /* Images.xcassets */,
-				BF3662301A130DD900705ECA /* WhatsNewIniPhoneOS.pdf */,
 				C0BB756E1A00B3AA00B6D5BE /* LaunchScreen.xib */,
 				C0BB75631A00B3A900B6D5BE /* Supporting Files */,
 			);
@@ -304,6 +303,7 @@
 				C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */,
 				C0161C0F1A02DF8400010370 /* Booklet.jpg */,
 				C0BB75861A00BCE600B6D5BE /* 2.Login.jpg */,
+				BF64C4B91A1523EC00A226CE /* ManualRH.pdf */,
 				C0BB759D1A00D6C400B6D5BE /* 11.videos.jpg */,
 				C0BB75871A00BCE600B6D5BE /* 3.Main-MenuA.jpg */,
 				C0BB75881A00BCE600B6D5BE /* 4.Main-Menu.jpg */,
@@ -428,7 +428,7 @@
 				C01111A61A04042F00A8C77A /* IQKeyboardManager.bundle in Resources */,
 				BF3662231A12B41D00705ECA /* juego.jpg in Resources */,
 				C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */,
-				BF3662311A130DD900705ECA /* WhatsNewIniPhoneOS.pdf in Resources */,
+				BF64C4BB1A1523EC00A226CE /* ManualRH.pdf in Resources */,
 				C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */,
 				C0161C101A02DF8400010370 /* Booklet.jpg in Resources */,
 				C0BB75931A00BCE600B6D5BE /* 3.Main-MenuA.jpg in Resources */,
