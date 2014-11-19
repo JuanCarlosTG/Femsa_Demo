@@ -25,7 +25,7 @@ class KCOVideo: UIViewController {
         
         moviePlayer = MPMoviePlayerController(contentURL: url)
         
-        moviePlayer.view.frame = CGRect(x: 0, y: 51, width: 320, height: 203)
+        moviePlayer.view.frame = CGRect(x: 0, y: 60, width: 385, height: 245)
         
         self.view.addSubview(moviePlayer.view)
         
