@@ -40,13 +40,7 @@
 		C0161C0B1A02C6D000010370 /* KCOJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0161C0A1A02C6D000010370 /* KCOJuego.swift */; };
 		C0161C101A02DF8400010370 /* Booklet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0161C0F1A02DF8400010370 /* Booklet.jpg */; };
 		C0161C181A02E4CB00010370 /* Articulo01.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C111A02E4CB00010370 /* Articulo01.png */; };
-		C0161C191A02E4CB00010370 /* Articulo02.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C121A02E4CB00010370 /* Articulo02.png */; };
-		C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C131A02E4CB00010370 /* Articulo03.png */; };
-		C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C141A02E4CB00010370 /* Articulo04.png */; };
-		C0161C1C1A02E4CB00010370 /* Articulo05.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C151A02E4CB00010370 /* Articulo05.png */; };
-		C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */ = {isa = PBXBuildFile; fileRef = C0161C161A02E4CB00010370 /* Articulo06.png */; };
 		C0161C1E1A02E4CB00010370 /* BackgroundArticulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */; };
-		C02713641A08282100D0314C /* 6.articulos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C02713631A08282100D0314C /* 6.articulos.jpg */; };
 		C0AD929C1A01637300EF3884 /* KCOMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD929B1A01637300EF3884 /* KCOMenu.swift */; };
 		C0AD92A21A017DF000EF3884 /* KCOMenuLiderazgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */; };
 		C0AD92A41A0181E000EF3884 /* KCOBooklet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */; };
@@ -117,13 +111,7 @@
 		C0161C0A1A02C6D000010370 /* KCOJuego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOJuego.swift; sourceTree = "<group>"; };
 		C0161C0F1A02DF8400010370 /* Booklet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Booklet.jpg; sourceTree = "<group>"; };
 		C0161C111A02E4CB00010370 /* Articulo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo01.png; sourceTree = "<group>"; };
-		C0161C121A02E4CB00010370 /* Articulo02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo02.png; sourceTree = "<group>"; };
-		C0161C131A02E4CB00010370 /* Articulo03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo03.png; sourceTree = "<group>"; };
-		C0161C141A02E4CB00010370 /* Articulo04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo04.png; sourceTree = "<group>"; };
-		C0161C151A02E4CB00010370 /* Articulo05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo05.png; sourceTree = "<group>"; };
-		C0161C161A02E4CB00010370 /* Articulo06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Articulo06.png; sourceTree = "<group>"; };
 		C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundArticulos.jpg; sourceTree = "<group>"; };
-		C02713631A08282100D0314C /* 6.articulos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.articulos.jpg; sourceTree = "<group>"; };
 		C0AD929B1A01637300EF3884 /* KCOMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu.swift; sourceTree = "<group>"; };
 		C0AD92A11A017DF000EF3884 /* KCOMenuLiderazgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KCOMenuLiderazgo.swift; path = ../KCOMenuLiderazgo.swift; sourceTree = "<group>"; };
 		C0AD92A31A0181E000EF3884 /* KCOBooklet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOBooklet.swift; sourceTree = "<group>"; };
@@ -293,12 +281,6 @@
 				C0161C111A02E4CB00010370 /* Articulo01.png */,
 				BF3662241A12B54500705ECA /* juego.png */,
 				BF3662221A12B41D00705ECA /* juego.jpg */,
-				C0161C121A02E4CB00010370 /* Articulo02.png */,
-				C0161C131A02E4CB00010370 /* Articulo03.png */,
-				C02713631A08282100D0314C /* 6.articulos.jpg */,
-				C0161C141A02E4CB00010370 /* Articulo04.png */,
-				C0161C151A02E4CB00010370 /* Articulo05.png */,
-				C0161C161A02E4CB00010370 /* Articulo06.png */,
 				C0161C171A02E4CB00010370 /* BackgroundArticulos.jpg */,
 				C0BB75851A00BCE600B6D5BE /* 1.Splash.jpg */,
 				C0161C0F1A02DF8400010370 /* Booklet.jpg */,
@@ -427,7 +409,6 @@
 				C0BB75701A00B3AA00B6D5BE /* LaunchScreen.xib in Resources */,
 				C01111A61A04042F00A8C77A /* IQKeyboardManager.bundle in Resources */,
 				BF3662231A12B41D00705ECA /* juego.jpg in Resources */,
-				C0161C1D1A02E4CB00010370 /* Articulo06.png in Resources */,
 				BF64C4BB1A1523EC00A226CE /* ManualRH.pdf in Resources */,
 				C0BB759E1A00D6C400B6D5BE /* 11.videos.jpg in Resources */,
 				C0161C101A02DF8400010370 /* Booklet.jpg in Resources */,
@@ -437,17 +418,12 @@
 				C0161C1E1A02E4CB00010370 /* BackgroundArticulos.jpg in Resources */,
 				C0BB75991A00BCE600B6D5BE /* 9.juego.jpg in Resources */,
 				C0BB75961A00BCE600B6D5BE /* 6.articulos.jpg in Resources */,
-				C0161C1C1A02E4CB00010370 /* Articulo05.png in Resources */,
 				C0161C181A02E4CB00010370 /* Articulo01.png in Resources */,
-				C0161C191A02E4CB00010370 /* Articulo02.png in Resources */,
-				C0161C1A1A02E4CB00010370 /* Articulo03.png in Resources */,
 				C0C41ACB1A13E9E7000A7472 /* poster.png in Resources */,
-				C0161C1B1A02E4CB00010370 /* Articulo04.png in Resources */,
 				C0BB75981A00BCE600B6D5BE /* 8.chat.jpg in Resources */,
 				BF3662291A12B5DB00705ECA /* coke01.png in Resources */,
 				C0BB759C1A00BCE600B6D5BE /* 12.menuIndEmpleo.jpg in Resources */,
 				C0E80D4E1A13CA3B0020AF9D /* JuegoComercial.jpeg in Resources */,
-				C02713641A08282100D0314C /* 6.articulos.jpg in Resources */,
 				C0BB756D1A00B3AA00B6D5BE /* Images.xcassets in Resources */,
 				C0BB75941A00BCE600B6D5BE /* 4.Main-Menu.jpg in Resources */,
 				C01111AA1A0409B000A8C77A /* KOFDemoTV.mov in Resources */,
@@ -618,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Luis E Flores Bolivar (67H8U96F68)";
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -630,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Luis E Flores Bolivar (67H8U96F68)";
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
