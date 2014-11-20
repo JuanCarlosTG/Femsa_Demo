@@ -326,6 +326,7 @@
 			buildConfigurationList = C0BB757F1A00B3AA00B6D5BE /* Build configuration list for PBXNativeTarget "Femsa" */;
 			buildPhases = (
 				C0BB755C1A00B3A900B6D5BE /* Sources */,
+				BF15B4571A1D65E600E2BC96 /* ShellScript */,
 				C0BB755D1A00B3A900B6D5BE /* Frameworks */,
 				C0BB755E1A00B3A900B6D5BE /* Resources */,
 			);
@@ -438,6 +439,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF15B4571A1D65E600E2BC96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n\nbuildNumber=$(($buildNumber + 1))\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0BB755C1A00B3A900B6D5BE /* Sources */ = {
@@ -599,7 +616,7 @@
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f83e38b9-86c6-4f9f-a455-8c3701899eea";
+				PROVISIONING_PROFILE = "4f92cd0b-1da8-47ae-9451-3d1dc2990b29";
 			};
 			name = Debug;
 		};
@@ -612,7 +629,7 @@
 				INFOPLIST_FILE = Femsa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f83e38b9-86c6-4f9f-a455-8c3701899eea";
+				PROVISIONING_PROFILE = "4f92cd0b-1da8-47ae-9451-3d1dc2990b29";
 			};
 			name = Release;
 		};
