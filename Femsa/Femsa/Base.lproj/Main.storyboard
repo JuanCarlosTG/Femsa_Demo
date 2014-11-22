@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -127,6 +127,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="OzX-FB-9fd">
+                                <rect key="frame" x="247" y="47" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -157,6 +161,10 @@
                                     <segue destination="SAE-sc-Ccu" kind="modal" id="P5v-1K-FbN"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="TUN-Yy-Pn8">
+                                <rect key="frame" x="250" y="524" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -231,6 +239,10 @@
                                     <segue destination="X3V-gv-ThA" kind="modal" modalTransitionStyle="crossDissolve" id="iEC-aO-NY6"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="1Xv-a8-bJ9">
+                                <rect key="frame" x="16" y="217" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -281,6 +293,10 @@
                                     <segue destination="6Hk-px-pW7" kind="modal" modalTransitionStyle="crossDissolve" id="tjm-Km-V6d"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="ePE-cq-uMt">
+                                <rect key="frame" x="6" y="211" width="81" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -312,24 +328,28 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="rGk-ea-QyH">
-                                <rect key="frame" x="137" y="474.00000196695316" width="15" height="28"/>
+                                <rect key="frame" x="134" y="530.00000036188521" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke03.png" id="v0J-vk-nGr">
-                                <rect key="frame" x="160" y="457.00000196695316" width="16" height="45"/>
+                                <rect key="frame" x="157" y="513" width="16" height="45.000000361885412"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke01.png" id="8ha-h2-07D">
-                                <rect key="frame" x="185" y="448.00000196695322" width="18" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poster.png" id="bZ1-MR-XCd">
-                                <rect key="frame" x="213" y="357.00000196695316" width="107" height="145"/>
+                                <rect key="frame" x="181" y="504" width="18" height="54.000000361885355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coke02.png" id="fac-QU-WCJ">
-                                <rect key="frame" x="114" y="474.00000196695316" width="15" height="28"/>
+                                <rect key="frame" x="111" y="529.99999970197666" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poster.png" id="bZ1-MR-XCd">
+                                <rect key="frame" x="207" y="412.99999970197678" width="107" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="5Ti-bM-QNB">
+                                <rect key="frame" x="5" y="524" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -344,7 +364,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i5P-Jo-vae" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="540" y="1005"/>
+            <point key="canvasLocation" x="588" y="1125"/>
         </scene>
         <!--Menu Liderazgo-->
         <scene sceneID="X9O-l1-apC">
@@ -419,6 +439,10 @@
                                     <segue destination="EAd-ix-GHA" kind="modal" id="j3d-eF-nef"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="qJv-pM-gHt">
+                                <rect key="frame" x="6" y="521" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -450,6 +474,10 @@
                                     <segue destination="SkL-5d-bCe" kind="modal" id="ttA-GU-R2k"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="kSL-za-fIs">
+                                <rect key="frame" x="240" y="518" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -475,7 +503,7 @@
                                 <color key="backgroundColor" red="1" green="0.94385834854014594" blue="0.95228056121711968" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="MYT-Ue-QJv">
-                                <rect key="frame" x="79.999999580526648" y="128" width="224" height="36"/>
+                                <rect key="frame" x="79.999999115736273" y="128" width="224" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -506,7 +534,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TaV-9w-6u3">
-                                <rect key="frame" x="251" y="530.99999978483447" width="37" height="30"/>
+                                <rect key="frame" x="251" y="530.99999956426598" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <state key="normal" title="Enviar">
@@ -518,7 +546,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hJI-NW-jAo">
-                                <rect key="frame" x="79.999999580526648" y="232" width="224" height="36"/>
+                                <rect key="frame" x="79.999999115736273" y="232" width="224" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -630,6 +658,10 @@
                                     <segue destination="c9y-3C-NCe" kind="modal" id="fkA-vQ-iV7"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="femsa logo.png" id="PJ8-gs-NHr">
+                                <rect key="frame" x="240" y="515" width="64" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -697,6 +729,7 @@
         <image name="coke01.png" width="35" height="107"/>
         <image name="coke02.png" width="29" height="51"/>
         <image name="coke03.png" width="29" height="85"/>
+        <image name="femsa logo.png" width="153" height="89"/>
         <image name="poster.png" width="210" height="290"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -705,10 +738,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="I7L-WS-agU"/>
-        <segue reference="vMG-mO-g93"/>
-        <segue reference="Un0-Ew-iqd"/>
+        <segue reference="4vJ-Y5-LhR"/>
+        <segue reference="Fwl-40-Aoe"/>
         <segue reference="VUS-nc-vRI"/>
         <segue reference="tjm-Km-V6d"/>
+        <segue reference="vMG-mO-g93"/>
     </inferredMetricsTieBreakers>
 </document>

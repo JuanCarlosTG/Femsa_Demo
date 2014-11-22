@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1A5AEA1A1FFAE000DC769C /* femsa logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1A5AE91A1FFAE000DC769C /* femsa logo.png */; };
 		BF3662231A12B41D00705ECA /* juego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3662221A12B41D00705ECA /* juego.jpg */; };
 		BF3662251A12B54500705ECA /* juego.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662241A12B54500705ECA /* juego.png */; };
 		BF3662291A12B5DB00705ECA /* coke01.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662261A12B5DB00705ECA /* coke01.png */; };
@@ -78,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1A5AE91A1FFAE000DC769C /* femsa logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "femsa logo.png"; sourceTree = "<group>"; };
 		BF3662221A12B41D00705ECA /* juego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juego.jpg; sourceTree = "<group>"; };
 		BF3662241A12B54500705ECA /* juego.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juego.png; sourceTree = "<group>"; };
 		BF3662261A12B5DB00705ECA /* coke01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke01.png; sourceTree = "<group>"; };
@@ -272,6 +274,7 @@
 		C0BB75631A00B3A900B6D5BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF1A5AE91A1FFAE000DC769C /* femsa logo.png */,
 				C0E80D4D1A13CA3B0020AF9D /* JuegoComercial.jpeg */,
 				C0C41ACA1A13E9E7000A7472 /* poster.png */,
 				BF3662261A12B5DB00705ECA /* coke01.png */,
@@ -402,6 +405,7 @@
 			files = (
 				C0BB75921A00BCE600B6D5BE /* 2.Login.jpg in Resources */,
 				C0BB756B1A00B3AA00B6D5BE /* Main.storyboard in Resources */,
+				BF1A5AEA1A1FFAE000DC769C /* femsa logo.png in Resources */,
 				BF3662251A12B54500705ECA /* juego.png in Resources */,
 				C0BB75971A00BCE600B6D5BE /* 7.Calendar.jpg in Resources */,
 				BF36622B1A12B5DB00705ECA /* coke03.png in Resources */,
