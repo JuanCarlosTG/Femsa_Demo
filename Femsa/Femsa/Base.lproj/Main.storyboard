@@ -173,10 +173,10 @@
             </objects>
             <point key="canvasLocation" x="1425" y="-1454"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu2-->
         <scene sceneID="utJ-Of-qTb">
             <objects>
-                <viewController id="SAE-sc-Ccu" sceneMemberID="viewController">
+                <viewController id="SAE-sc-Ccu" customClass="KCOMenu2" customModule="Femsa" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gye-IU-SsN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,6 +243,16 @@
                                 <rect key="frame" x="16" y="217" width="64" height="39"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yUx-oG-dmW">
+                                <rect key="frame" x="6" y="451" width="116" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="displayAlert2:" destination="SAE-sc-Ccu" eventType="touchUpInside" id="dFb-oW-pdf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -750,8 +760,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="Un0-Ew-iqd"/>
         <segue reference="j3d-eF-nef"/>
-        <segue reference="Fwl-40-Aoe"/>
+        <segue reference="yQh-jL-WOZ"/>
         <segue reference="vMG-mO-g93"/>
-        <segue reference="tjm-Km-V6d"/>
+        <segue reference="bjd-pC-5Wh"/>
     </inferredMetricsTieBreakers>
 </document>

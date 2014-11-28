@@ -15,6 +15,7 @@
 		BF36622B1A12B5DB00705ECA /* coke03.png in Resources */ = {isa = PBXBuildFile; fileRef = BF3662281A12B5DB00705ECA /* coke03.png */; };
 		BF36622F1A1305DD00705ECA /* KCOPDFViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */; };
 		BF64C4BB1A1523EC00A226CE /* ManualRH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF64C4B91A1523EC00A226CE /* ManualRH.pdf */; };
+		BFA05C3D1A28E60C00C1B477 /* KCOMenu2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA05C3C1A28E60C00C1B477 /* KCOMenu2.swift */; };
 		C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */; };
 		C011119B1A04042F00A8C77A /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */; };
 		C011119C1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */; };
@@ -87,6 +88,7 @@
 		BF3662281A12B5DB00705ECA /* coke03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke03.png; sourceTree = "<group>"; };
 		BF36622E1A1305DD00705ECA /* KCOPDFViewerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOPDFViewerVC.swift; sourceTree = "<group>"; };
 		BF64C4B91A1523EC00A226CE /* ManualRH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ManualRH.pdf; sourceTree = "<group>"; };
+		BFA05C3C1A28E60C00C1B477 /* KCOMenu2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCOMenu2.swift; sourceTree = "<group>"; };
 		C01111891A04042F00A8C77A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		C011118A1A04042F00A8C77A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		C011118B1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				C0BB75671A00B3AA00B6D5BE /* ViewController.swift */,
 				C0161BF21A02BF9800010370 /* KCOPerfil.swift */,
 				C0161BF41A02BFC600010370 /* KCOAgenda.swift */,
+				BFA05C3C1A28E60C00C1B477 /* KCOMenu2.swift */,
 				C0161BF61A02C01A00010370 /* KCOBolsaDeTrabajo.swift */,
 				C0161BF81A02C04900010370 /* KCOChat.swift */,
 				C0161BFA1A02C06800010370 /* KCOMuro.swift */,
@@ -489,6 +492,7 @@
 				C011119A1A04042F00A8C77A /* IQNSArray+Sort.swift in Sources */,
 				C011119C1A04042F00A8C77A /* IQUIWindow+Hierarchy.swift in Sources */,
 				C011119F1A04042F00A8C77A /* IQKeyboardManager.swift in Sources */,
+				BFA05C3D1A28E60C00C1B477 /* KCOMenu2.swift in Sources */,
 				C0161BF31A02BF9800010370 /* KCOPerfil.swift in Sources */,
 				C01111A11A04042F00A8C77A /* IQTextView.swift in Sources */,
 				C0161BF91A02C04900010370 /* KCOChat.swift in Sources */,
